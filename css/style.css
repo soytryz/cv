@@ -1,0 +1,72 @@
+margin: {
+  padding: 0;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 1000px;
+  max-width: 1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.hea1 {
+  position: relative;
+  padding-top: 280px;
+  padding-left: 200px;
+}
+
+.box1 {
+  position: relative;
+  padding-top: 50px;
+}
+
+.pa1 {
+  position: relative;
+  padding-top: 89px;
+}
+
+.container .left_Side {
+  position: relative;
+  background: #91C788;
+  padding: 40px;
+}
+
+.hea {
+  position: relative;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-right: 0;
+}
+
+.name {
+  position: relative;
+  padding-left: 60px;
+  padding-top: 20px;
+  font-size: 40px;
+  padding-bottom: 0px;
+}
+
+.name2 {
+  position: relative;
+  padding-left: 60px;
+  padding-top: 0;
+}
+
+.container .right_Side {
+  position: relative;
+  background: #DDFFBC;
+  padding: 40px;
+}
